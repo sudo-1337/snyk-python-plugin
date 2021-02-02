@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 const plugin = require('../lib');
 
+
 function main() {
   const targetFile = process.argv[2];
   const root = process.argv[3] || '.';
